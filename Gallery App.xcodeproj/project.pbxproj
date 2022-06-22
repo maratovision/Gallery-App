@@ -13,6 +13,7 @@
 		919564272863135B00F707F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919564252863135B00F707F9 /* Main.storyboard */; };
 		919564292863135E00F707F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919564282863135E00F707F9 /* Assets.xcassets */; };
 		9195642C2863135E00F707F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9195642A2863135E00F707F9 /* LaunchScreen.storyboard */; };
+		919564342863206900F707F9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919564332863206900F707F9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		919564282863135E00F707F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9195642B2863135E00F707F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9195642D2863135E00F707F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919564332863206900F707F9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		9195641E2863135B00F707F9 /* Gallery App */ = {
 			isa = PBXGroup;
 			children = (
+				919564332863206900F707F9 /* DetailViewController.swift */,
 				9195641F2863135B00F707F9 /* AppDelegate.swift */,
 				919564212863135B00F707F9 /* SceneDelegate.swift */,
 				919564232863135B00F707F9 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				919564242863135B00F707F9 /* ViewController.swift in Sources */,
 				919564202863135B00F707F9 /* AppDelegate.swift in Sources */,
 				919564222863135B00F707F9 /* SceneDelegate.swift in Sources */,
+				919564342863206900F707F9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
