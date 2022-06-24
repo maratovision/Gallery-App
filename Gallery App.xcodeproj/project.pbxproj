@@ -14,6 +14,7 @@
 		919564292863135E00F707F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919564282863135E00F707F9 /* Assets.xcassets */; };
 		9195642C2863135E00F707F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9195642A2863135E00F707F9 /* LaunchScreen.storyboard */; };
 		919564342863206900F707F9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919564332863206900F707F9 /* DetailViewController.swift */; };
+		A0E9915728657E4B0014B131 /* FruitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9915628657E4B0014B131 /* FruitsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9195642B2863135E00F707F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9195642D2863135E00F707F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		919564332863206900F707F9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A0E9915628657E4B0014B131 /* FruitsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,11 @@
 		9195641E2863135B00F707F9 /* Gallery App */ = {
 			isa = PBXGroup;
 			children = (
+				A0E9915528657E2D0014B131 /* Enum */,
+				A0E9915428657E1D0014B131 /* Utilits */,
 				A0E991532864DEE30014B131 /* Resources */,
 				A0E991522864DED70014B131 /* Views */,
 				A0E991512864DEC00014B131 /* ViewControllers */,
-				919564282863135E00F707F9 /* Assets.xcassets */,
 				9195642D2863135E00F707F9 /* Info.plist */,
 			);
 			path = "Gallery App";
@@ -92,6 +95,22 @@
 				9195641F2863135B00F707F9 /* AppDelegate.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0E9915428657E1D0014B131 /* Utilits */ = {
+			isa = PBXGroup;
+			children = (
+				919564282863135E00F707F9 /* Assets.xcassets */,
+			);
+			path = Utilits;
+			sourceTree = "<group>";
+		};
+		A0E9915528657E2D0014B131 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				A0E9915628657E4B0014B131 /* FruitsModel.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +187,7 @@
 				919564242863135B00F707F9 /* ViewController.swift in Sources */,
 				919564202863135B00F707F9 /* AppDelegate.swift in Sources */,
 				919564222863135B00F707F9 /* SceneDelegate.swift in Sources */,
+				A0E9915728657E4B0014B131 /* FruitsModel.swift in Sources */,
 				919564342863206900F707F9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -34,6 +34,7 @@
                                                     <backgroundConfiguration key="background" image="bananas" imageContentMode="scaleAspectFill"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="imageTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nhk-cP-3vf"/>
                                                     <segue destination="5K5-p9-CsW" kind="show" id="Fyb-tO-Ehu"/>
                                                 </connections>
                                             </button>
@@ -45,6 +46,7 @@
                                                     <backgroundConfiguration key="background" image="watermelon" imageContentMode="scaleAspectFill"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="imageTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GYf-dn-91o"/>
                                                     <segue destination="5K5-p9-CsW" kind="show" id="IGd-zc-eGi"/>
                                                 </connections>
                                             </button>
@@ -61,6 +63,7 @@
                                                     <backgroundConfiguration key="background" image="strawberry" imageContentMode="scaleAspectFill"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="imageTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cDD-Ws-LX6"/>
                                                     <segue destination="5K5-p9-CsW" kind="show" id="G2h-Ku-HY1"/>
                                                 </connections>
                                             </button>
@@ -77,6 +80,7 @@
                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="imageTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F0M-BJ-NIl"/>
                                                     <segue destination="5K5-p9-CsW" kind="show" id="p1q-jh-dLN"/>
                                                 </connections>
                                             </button>
@@ -115,6 +119,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="backTapped:" destination="5K5-p9-CsW" eventType="touchUpInside" id="7RT-Vq-egl"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqV-0S-9zC">
                                 <rect key="frame" x="186" y="51" width="42.5" height="50"/>
@@ -125,7 +132,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1iN-E1-B15">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1iN-E1-B15">
                                 <rect key="frame" x="37" y="121" width="340" height="240"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
@@ -168,6 +175,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wqc-tP-gVG"/>
+                    <connections>
+                        <outlet property="image" destination="1iN-E1-B15" id="3jp-tc-ckn"/>
+                        <outlet property="subTitleLabel" destination="N5u-Ek-W0o" id="awx-KB-ja9"/>
+                        <outlet property="textLabel" destination="8S9-ID-TBf" id="GDl-kr-Fm9"/>
+                        <outlet property="titleLabel" destination="sqV-0S-9zC" id="uhO-Z9-aMd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fde-ux-L1Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
